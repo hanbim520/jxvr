@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2803849D1E23A35F001711A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2803849C1E23A35F001711A1 /* main.m */; };
+		280384A01E23A35F001711A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2803849F1E23A35F001711A1 /* AppDelegate.m */; };
+		280384A31E23A35F001711A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280384A21E23A35F001711A1 /* ViewController.m */; };
+		280384A61E23A35F001711A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280384A41E23A35F001711A1 /* Main.storyboard */; };
+		280384A91E23A35F001711A1 /* jxvr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 280384A71E23A35F001711A1 /* jxvr.xcdatamodeld */; };
+		280384AB1E23A35F001711A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280384AA1E23A35F001711A1 /* Assets.xcassets */; };
+		280384AE1E23A35F001711A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280384AC1E23A35F001711A1 /* LaunchScreen.storyboard */; };
+		280384B91E23A35F001711A1 /* jxvrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280384B81E23A35F001711A1 /* jxvrTests.m */; };
+		280384C41E23A35F001711A1 /* jxvrUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280384C31E23A35F001711A1 /* jxvrUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		280384B51E23A35F001711A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280384901E23A35E001711A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280384971E23A35F001711A1;
+			remoteInfo = jxvr;
+		};
+		280384C01E23A35F001711A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280384901E23A35E001711A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280384971E23A35F001711A1;
+			remoteInfo = jxvr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		280384981E23A35F001711A1 /* jxvr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jxvr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2803849C1E23A35F001711A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2803849E1E23A35F001711A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2803849F1E23A35F001711A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		280384A11E23A35F001711A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		280384A21E23A35F001711A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		280384A51E23A35F001711A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		280384A81E23A35F001711A1 /* jxvr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = jxvr.xcdatamodel; sourceTree = "<group>"; };
+		280384AA1E23A35F001711A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		280384AD1E23A35F001711A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		280384AF1E23A35F001711A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280384B41E23A35F001711A1 /* jxvrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jxvrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280384B81E23A35F001711A1 /* jxvrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jxvrTests.m; sourceTree = "<group>"; };
+		280384BA1E23A35F001711A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280384BF1E23A35F001711A1 /* jxvrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jxvrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280384C31E23A35F001711A1 /* jxvrUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jxvrUITests.m; sourceTree = "<group>"; };
+		280384C51E23A35F001711A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		280384951E23A35F001711A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280384B11E23A35F001711A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280384BC1E23A35F001711A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2803848F1E23A35E001711A1 = {
+			isa = PBXGroup;
+			children = (
+				2803849A1E23A35F001711A1 /* jxvr */,
+				280384B71E23A35F001711A1 /* jxvrTests */,
+				280384C21E23A35F001711A1 /* jxvrUITests */,
+				280384991E23A35F001711A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		280384991E23A35F001711A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280384981E23A35F001711A1 /* jxvr.app */,
+				280384B41E23A35F001711A1 /* jxvrTests.xctest */,
+				280384BF1E23A35F001711A1 /* jxvrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2803849A1E23A35F001711A1 /* jxvr */ = {
+			isa = PBXGroup;
+			children = (
+				2803849E1E23A35F001711A1 /* AppDelegate.h */,
+				2803849F1E23A35F001711A1 /* AppDelegate.m */,
+				280384A11E23A35F001711A1 /* ViewController.h */,
+				280384A21E23A35F001711A1 /* ViewController.m */,
+				280384A41E23A35F001711A1 /* Main.storyboard */,
+				280384AA1E23A35F001711A1 /* Assets.xcassets */,
+				280384AC1E23A35F001711A1 /* LaunchScreen.storyboard */,
+				280384AF1E23A35F001711A1 /* Info.plist */,
+				280384A71E23A35F001711A1 /* jxvr.xcdatamodeld */,
+				2803849B1E23A35F001711A1 /* Supporting Files */,
+			);
+			path = jxvr;
+			sourceTree = "<group>";
+		};
+		2803849B1E23A35F001711A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2803849C1E23A35F001711A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		280384B71E23A35F001711A1 /* jxvrTests */ = {
+			isa = PBXGroup;
+			children = (
+				280384B81E23A35F001711A1 /* jxvrTests.m */,
+				280384BA1E23A35F001711A1 /* Info.plist */,
+			);
+			path = jxvrTests;
+			sourceTree = "<group>";
+		};
+		280384C21E23A35F001711A1 /* jxvrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				280384C31E23A35F001711A1 /* jxvrUITests.m */,
+				280384C51E23A35F001711A1 /* Info.plist */,
+			);
+			path = jxvrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280384971E23A35F001711A1 /* jxvr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280384C81E23A35F001711A1 /* Build configuration list for PBXNativeTarget "jxvr" */;
+			buildPhases = (
+				280384941E23A35F001711A1 /* Sources */,
+				280384951E23A35F001711A1 /* Frameworks */,
+				280384961E23A35F001711A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jxvr;
+			productName = jxvr;
+			productReference = 280384981E23A35F001711A1 /* jxvr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		280384B31E23A35F001711A1 /* jxvrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280384CB1E23A35F001711A1 /* Build configuration list for PBXNativeTarget "jxvrTests" */;
+			buildPhases = (
+				280384B01E23A35F001711A1 /* Sources */,
+				280384B11E23A35F001711A1 /* Frameworks */,
+				280384B21E23A35F001711A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280384B61E23A35F001711A1 /* PBXTargetDependency */,
+			);
+			name = jxvrTests;
+			productName = jxvrTests;
+			productReference = 280384B41E23A35F001711A1 /* jxvrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		280384BE1E23A35F001711A1 /* jxvrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280384CE1E23A35F001711A1 /* Build configuration list for PBXNativeTarget "jxvrUITests" */;
+			buildPhases = (
+				280384BB1E23A35F001711A1 /* Sources */,
+				280384BC1E23A35F001711A1 /* Frameworks */,
+				280384BD1E23A35F001711A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280384C11E23A35F001711A1 /* PBXTargetDependency */,
+			);
+			name = jxvrUITests;
+			productName = jxvrUITests;
+			productReference = 280384BF1E23A35F001711A1 /* jxvrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		280384901E23A35E001711A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = abc;
+				TargetAttributes = {
+					280384971E23A35F001711A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					280384B31E23A35F001711A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 280384971E23A35F001711A1;
+					};
+					280384BE1E23A35F001711A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 280384971E23A35F001711A1;
+					};
+				};
+			};
+			buildConfigurationList = 280384931E23A35E001711A1 /* Build configuration list for PBXProject "jxvr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2803848F1E23A35E001711A1;
+			productRefGroup = 280384991E23A35F001711A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				280384971E23A35F001711A1 /* jxvr */,
+				280384B31E23A35F001711A1 /* jxvrTests */,
+				280384BE1E23A35F001711A1 /* jxvrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		280384961E23A35F001711A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280384AE1E23A35F001711A1 /* LaunchScreen.storyboard in Resources */,
+				280384AB1E23A35F001711A1 /* Assets.xcassets in Resources */,
+				280384A61E23A35F001711A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280384B21E23A35F001711A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280384BD1E23A35F001711A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280384941E23A35F001711A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280384A31E23A35F001711A1 /* ViewController.m in Sources */,
+				280384A01E23A35F001711A1 /* AppDelegate.m in Sources */,
+				2803849D1E23A35F001711A1 /* main.m in Sources */,
+				280384A91E23A35F001711A1 /* jxvr.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280384B01E23A35F001711A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280384B91E23A35F001711A1 /* jxvrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280384BB1E23A35F001711A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280384C41E23A35F001711A1 /* jxvrUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		280384B61E23A35F001711A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280384971E23A35F001711A1 /* jxvr */;
+			targetProxy = 280384B51E23A35F001711A1 /* PBXContainerItemProxy */;
+		};
+		280384C11E23A35F001711A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280384971E23A35F001711A1 /* jxvr */;
+			targetProxy = 280384C01E23A35F001711A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		280384A41E23A35F001711A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280384A51E23A35F001711A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		280384AC1E23A35F001711A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280384AD1E23A35F001711A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		280384C61E23A35F001711A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		280384C71E23A35F001711A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		280384C91E23A35F001711A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jxvr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxvr.jxvr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		280384CA1E23A35F001711A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jxvr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxvr.jxvr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		280384CC1E23A35F001711A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = jxvrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxvr.jxvrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jxvr.app/jxvr";
+			};
+			name = Debug;
+		};
+		280384CD1E23A35F001711A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = jxvrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxvr.jxvrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jxvr.app/jxvr";
+			};
+			name = Release;
+		};
+		280384CF1E23A35F001711A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = jxvrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxvr.jxvrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = jxvr;
+			};
+			name = Debug;
+		};
+		280384D01E23A35F001711A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = jxvrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxvr.jxvrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = jxvr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280384931E23A35E001711A1 /* Build configuration list for PBXProject "jxvr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280384C61E23A35F001711A1 /* Debug */,
+				280384C71E23A35F001711A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280384C81E23A35F001711A1 /* Build configuration list for PBXNativeTarget "jxvr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280384C91E23A35F001711A1 /* Debug */,
+				280384CA1E23A35F001711A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		280384CB1E23A35F001711A1 /* Build configuration list for PBXNativeTarget "jxvrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280384CC1E23A35F001711A1 /* Debug */,
+				280384CD1E23A35F001711A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		280384CE1E23A35F001711A1 /* Build configuration list for PBXNativeTarget "jxvrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280384CF1E23A35F001711A1 /* Debug */,
+				280384D01E23A35F001711A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		280384A71E23A35F001711A1 /* jxvr.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				280384A81E23A35F001711A1 /* jxvr.xcdatamodel */,
+			);
+			currentVersion = 280384A81E23A35F001711A1 /* jxvr.xcdatamodel */;
+			path = jxvr.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 280384901E23A35E001711A1 /* Project object */;
+}
