@@ -16,6 +16,7 @@
 		280384AE1E23A35F001711A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280384AC1E23A35F001711A1 /* LaunchScreen.storyboard */; };
 		280384B91E23A35F001711A1 /* jxvrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280384B81E23A35F001711A1 /* jxvrTests.m */; };
 		280384C41E23A35F001711A1 /* jxvrUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280384C31E23A35F001711A1 /* jxvrUITests.m */; };
+		280384D31E23A479001711A1 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280384D21E23A479001711A1 /* KeychainPasswordItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		280384BF1E23A35F001711A1 /* jxvrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jxvrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		280384C31E23A35F001711A1 /* jxvrUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jxvrUITests.m; sourceTree = "<group>"; };
 		280384C51E23A35F001711A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280384D11E23A478001711A1 /* jxvr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jxvr-Bridging-Header.h"; sourceTree = "<group>"; };
+		280384D21E23A479001711A1 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		2803849A1E23A35F001711A1 /* jxvr */ = {
 			isa = PBXGroup;
 			children = (
+				280384D21E23A479001711A1 /* KeychainPasswordItem.swift */,
 				2803849E1E23A35F001711A1 /* AppDelegate.h */,
 				2803849F1E23A35F001711A1 /* AppDelegate.m */,
 				280384A11E23A35F001711A1 /* ViewController.h */,
@@ -113,6 +117,7 @@
 				280384AF1E23A35F001711A1 /* Info.plist */,
 				280384A71E23A35F001711A1 /* jxvr.xcdatamodeld */,
 				2803849B1E23A35F001711A1 /* Supporting Files */,
+				280384D11E23A478001711A1 /* jxvr-Bridging-Header.h */,
 			);
 			path = jxvr;
 			sourceTree = "<group>";
@@ -210,6 +215,8 @@
 				TargetAttributes = {
 					280384971E23A35F001711A1 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8LQF3TG3YX;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					280384B31E23A35F001711A1 = {
@@ -276,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280384D31E23A479001711A1 /* KeychainPasswordItem.swift in Sources */,
 				280384A31E23A35F001711A1 /* ViewController.m in Sources */,
 				280384A01E23A35F001711A1 /* AppDelegate.m in Sources */,
 				2803849D1E23A35F001711A1 /* main.m in Sources */,
@@ -428,10 +436,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8LQF3TG3YX;
 				INFOPLIST_FILE = jxvr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jxvr.jxvr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "jxvr/jxvr-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -439,16 +454,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8LQF3TG3YX;
 				INFOPLIST_FILE = jxvr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jxvr.jxvr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "jxvr/jxvr-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		280384CC1E23A35F001711A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = jxvrTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -461,6 +483,7 @@
 		280384CD1E23A35F001711A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = jxvrTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -473,6 +496,7 @@
 		280384CF1E23A35F001711A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = jxvrUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jxvr.jxvrUITests;
@@ -484,6 +508,7 @@
 		280384D01E23A35F001711A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = jxvrUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jxvr.jxvrUITests;

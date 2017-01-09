@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+@property (strong, nonatomic) NSString *_myService;
+@property (strong, nonatomic) NSString *_myAccount;
+@property (strong, nonatomic) NSString *_myAccountaccessGroup;
+-(void)saveInfo:(NSString*)account:(NSString*)passwd;
 @end
+
+
 
